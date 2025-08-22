@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import WasteCategories from "@/components/WasteCategories";
-import CameraDemo from "@/components/CameraDemo";
+import CameraCapture from "@/components/CameraCapture";
 import EducationalTips from "@/components/EducationalTips";
 
 const Index = () => {
@@ -8,7 +8,7 @@ const Index = () => {
     <div className="min-h-screen">
       <HeroSection />
       <WasteCategories />
-      <CameraDemo />
+      <CameraCapture />
       <EducationalTips />
     </div>
   );

@@ -92,6 +92,24 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fadeIn': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slideUp': {
+					from: {
+						transform: 'translateY(100%)'
+					},
+					to: {
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
